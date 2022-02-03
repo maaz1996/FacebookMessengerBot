@@ -1,0 +1,32 @@
+{
+  "name": "facebookmessengerbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec babel-node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maaz1996/FacebookMessengerBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maaz1996/FacebookMessengerBot/issues"
+  },
+  "homepage": "https://github.com/maaz1996/FacebookMessengerBot#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^2.0.15"
+  }
+}
